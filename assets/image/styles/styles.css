@@ -3,24 +3,24 @@
 }
 
 body {
-  font-family: 'Playfair',sans-serif;
-    background-color: #daf1de ;
-   
-    margin: 0;
-  padding: 0;}
+  font-family: "Playfair", sans-serif;
+  background-color: #daf1de;
 
+  margin: 0;
+  padding: 0;
+}
 
-
- 
-h2, h3,h4 ,h5, h6 {
-  
+h2,
+h3,
+h4,
+h5,
+h6 {
   background-color: #163832;
   padding: 12px;
-  color:white;
+  color: white;
   border: 1px solid black;
-  
 }
- 
+
 footer {
   background-color: #163832;
   color: white;
@@ -29,28 +29,25 @@ footer {
   margin-top: 1rem;
 }
 
-nav a{
+nav a {
   font-size: 18px;
   font: weight 400;
   text-decoration: none;
-color: white;
- 
+  color: white;
 }
 nav a:hover {
-  font-weight:bold;
+  font-weight: bold;
 }
 
 .profile header {
   text-align: center;
 }
 
-  
 .featured-image {
   width: 100%;
   max-height: 250px;
   object-fit: cover;
   object-position: right;
- 
 }
 
 .profile img {
@@ -62,7 +59,6 @@ nav a:hover {
   border-radius: 5px;
 
   padding: 20px;
- 
 }
 
 .jumbotron {
@@ -70,18 +66,16 @@ nav a:hover {
   padding: 60px;
   background-color: #163832;
   text-align: center;
-  color:azure;
+  color: azure;
 }
 
-nav ul{
+nav ul {
   padding-inline: 4rem;
   display: flex;
   gap: 2rem;
 }
 nav li {
-  
   list-style-type: none;
-  
 }
 
 nav {
@@ -89,13 +83,13 @@ nav {
   padding: 5px;
   position: sticky;
   top: 0;
-
 }
-aside{
- flex: 1;
+aside {
+  flex: 1;
 }
 @media screen and (max-width: 1000px) {
-  #content, aside {
+  #content,
+  aside {
     width: 100%;
     padding: 0;
   }
@@ -108,12 +102,11 @@ header {
   main {
     flex-flow: column nowrap;
   }
- 
+
   main aside {
     align-self: center;
   }
 }
-
 
 @media screen and (max-width: 768px) {
   nav ul {
@@ -137,4 +130,3 @@ main {
   display: flex;
   flex-flow: column nowrap;
 }
-
